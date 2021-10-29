@@ -49,7 +49,7 @@ require (
 	golang.org/x/time v0.0.0-20181108054448-85acf8d2951c // indirect
 	google.golang.org/grpc v1.29.1 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
-	gopkg.in/yaml.v2 v2.2.7
+	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools v2.2.1-0.20181123051433-bcbf6e613274+incompatible
 )
 

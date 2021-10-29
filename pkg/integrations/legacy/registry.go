@@ -242,6 +242,9 @@ func isInitialized(p ids.PluginID) bool {
 
 func (pr *PluginRegistry) loadPlugin(pluginPath string) (plugin *Plugin, err error) {
 	plog.WithField("definitionFile", pluginPath).Debug("Found integration definition file.")
+
+	// TODO here we have definition file
+
 	var decodedPlugin Plugin
 	if _, err = config_loader.LoadYamlConfig(&decodedPlugin, pluginPath); err != nil {
 		return
